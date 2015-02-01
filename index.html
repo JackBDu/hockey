@@ -8,8 +8,54 @@
   	<meta name="HandheldFriendly" content="True">
   	<meta name="MobileOptimized" content="320">
   	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=0.5, maximum-scale=1, user-scalable=yes, minimal-ui">
+    <link href="style/main.css" rel="stylesheet" type="text/css">
+  </head>
+    <body>
+        <div id="content_container">
+            <header>
+                <h1 id="title">HOCKEY</h1>
+<!--                 <div id="scores_container">
+                    <div id="score_container">SCORE: <div id="score">0</div></div>
+                    <div id="best_container">BEST: <div id="best"></div></div>
+                </div> -->
+            </header>
+            <div class="clear_float"></div>
+            <div id="canvas_container">
+<!--                 <div id="info_container" class="glass">
+                    <div id="static_pause">
+                        <button class="button" id="force_pause"><strong>PAUSE</strong></button>
+                    </div>
+                    <div id="game_over">
+                        <div class="info"><h2 id="result"></h2><h2>YOU GOT <strong id="final_score"></strong></h2></div>
+                        <button class="button" id="restart"><h2>RESTART</h2></button>
+                    </div>
+                    <div id="pause">
+                        <div class="info"><h2>PAUSED</h2></div>
+                        <button class="button" id="resume"><h2>RESUME</h2></button>
+                        <button class="button" id="restart2"><h2>RESTART</h2></button>
+                    </div>
+                    <div id="difficulties">
+                        <div class="info"><h2>DIFFICULTY</h2></div>
+                        <button class="button" id="easy"><h2>!</h2><h2 class="hollow">!!!</h2></button>
+                        <button class="button" id="hard"><h2>!!</h2><h2 class="hollow">!!</h2></button>
+                        <button class="button" id="insane"><h2>!!!</h2><h2 class="hollow">!</h2></button>
+                        <button class="button" id="crazy"><h2>!!!!</h2></button>
+                    </div>
+                </div> -->
+                <canvas id="canvas"></canvas>
+            </div>
+            <div id="game-explanation">
+                <p><strong>HOW TO PLAY: </strong>Drag the <strong>right stick </strong>to hit the ball to the goal. Press <strong>"N" </strong>to start a new game. Press <strong>"R" </strong>to restart this round.</p>
+                <hr>
+                <p>Created by <a href="http://jackbdu.github.io" target="_blank">Jack B. Du</a>. The concept is based on the classic game Hockey.</p>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright &copy 2014-2015 Jack B. Du All rights reserved.</p>
+        </footer>
+    </body>
     <script src="processing-1.4.1.min.js"></script>
-<script type="text/processing" data-processing-target="mycanvas">
+<script type="text/processing" data-processing-target="canvas">
 //-------------------//
 //     Main Body     //
 //-------------------//
@@ -552,13 +598,4 @@ class Player {
 
 }
 </script>
-
-  </head>
-
-  <body>
-
-    <canvas id="mycanvas"></canvas>
-    
-
-  </body>
 </html>
