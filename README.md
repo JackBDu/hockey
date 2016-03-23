@@ -9,7 +9,7 @@ A remake of the classic game Hockey, built from scratch.
 This project was originally built for Interaction Lab at NYU Shanghai. It was then polished to be part of the Classic Game Remake project.
 
 ## Screenshot
-![HOCKEY](http://jackbdu.me/portfolio/img/hockey.png)
+![HOCKEY](http://jackbdu.github.io/portfolio/img/hockey.png)
 
 ## License
 
