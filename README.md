@@ -13,4 +13,4 @@ This project was originally built for Interaction Lab at NYU Shanghai. It was th
 
 ## License
 
-SNAKE is licensed under the [Apache license](./LICENSE).
+HOCKEY is licensed under the [Apache license](./LICENSE).
